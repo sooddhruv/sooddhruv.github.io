@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+html{
+	
+}
+body{
+	background-color:white;
+	overflow-x: hidden;
+	width:100%;
+	margin:auto;
+}
+
+#cross{
+	font-size:4.5vh;
+	margin-top:0.5%;
+}
+#header{
+	background-color:black;
+}
+#header i{
+	padding: 0px 8px;
+	color:white;
+}
+.nav-item{
+	color:white;
+	padding:0px 18px;
+}
+.nav-link:hover{
+	border-bottom:1px solid;
+	transition: 100ms;
+	color:grey;
+}
+.nav-brand{
+	color:white;
+	font-size:1.5em;
+}
+.navbar-toggler{
+	color:grey;
+}
+.navbar-toggler:hover{
+	border:1px solid;
+	transition: 200ms;
+}
+#heart:hover{
+	font-weight:800;
+	transition: 200ms;
+}
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index:10;
+	height:5vh;
+}
+#content{
+	margin:auto;
+	padding:5vh;
+}
+#content hr{
+	border:1px solid black;
+}
+
+/***************************************************************************************************************/
+#about{
+	height:87.3vh;
+	margin:auto;
+	margin-top:auto;
+	padding:auto;
+}
+#aboutphoto{
+	background-repeat:no-repeat;
+	background-image:url('../img/about.png');
+	background-size:75%;
+	background-position: center;
+	min-height:50vh;
+	background-color:#F8FEFF;
+}
+
+#aboutheader{
+	font-size:5vh;
+	font-weight:700;
+	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#aboutbody{
+	font-size:2vh;
+	font-weight:700;
+	color:rgba(0,0,0,0.75);
+	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/**************************************************************************************************************/
+
+#education{
+	height:87.3vh;
+	margin:auto;
+	margin-top:auto;
+	padding:auto;
+}
+#educationheader{
+	font-size:5vh;
+	font-weight:700;
+	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#educationbody{
+	font-size:2vh;
+	font-weight:700;
+	color:rgba(0,0,0,0.75);
+	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#educationphoto{
+	margin:auto;
+	padding:auto;
+}
+#cmu-logo{
+	margin:1vh;
+	width:24vh;
+}
+#vit-logo{
+	margin:1vh;
+	width:24vh;
+}
+
+/**************************************************************************************************************/
+
+#research{
+	height:87.3vh;
+	margin:auto;
+	margin-top:auto;
+	padding:auto;
+}
+#researchcontent{
+	margin:auto;
+}
+#researchheader{
+	font-size:6vh;
+	font-weight:700;
+	color:white;
+	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#research hr{
+	color:white;
+	border-bottom:1px solid white;
+}
+#researchbody{
+	margin-top:auto;
+}
+#paper1{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/paper1.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid grey;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	font-size:2.5vh;
+	font-weight:700;
+}
+#paper2{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/paper2.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	color:white;
+	text-align:center;
+	font-size:2.5vh;
+	font-weight:700;
+}
+#paper3{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/paper3.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:2.5vh;
+	font-weight:700;
+}
+#paper4{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/paper4.jpg');
+	background-size:80%;
+	background-position: center;
+	background-color:white;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:2.5vh;
+	font-weight:700;
+}
+#rcircle{
+	font-size:4vh;
+	font-weight:700;
+	margin-top:2%;
+}
+#rcircle:hover,
+#rcircle:focus {
+  color: grey;
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+#papertitle{
+	font-weight:700;
+	font-size:3vh;
+	text-align:center;
+}
+#paperdetails{
+	font-weight:600;
+	color:rgba(0,0,0,0.6);
+	font-size:2vh;
+	text-align:center;
+}
+#paperbody{
+	font-weight:600;
+	color:rgba(0,0,0,0.6);
+	font-size:1.6vh;
+	text-align: justify;
+}
+#paperbody a{
+	font-weight:500;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/**************************************************************************************************************/
+
+#project{
+	height:87.3vh;
+	margin:auto;
+	padding:auto;
+}
+#projectcontent{
+	margin:auto;
+}
+#projectheader{
+	font-size:6vh;
+	font-weight:700;
+	color:white;
+	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#project hr{
+	color:white;
+	border-bottom:1px solid white;
+}
+#projectbody{
+	margin-top:auto;
+}
+
+#project1{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/paper2.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid grey;
+	color:white;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	font-size:3vh;
+	font-weight:700;
+}
+#project2{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/project2.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:3vh;
+	font-weight:700;
+}
+#project3{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/project3.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:3vh;
+	font-weight:700;
+}
+#project4{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/project4.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:3vh;
+	font-weight:700;
+}
+#project5{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/project5.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:3vh;
+	font-weight:700;
+}
+#project6{
+	background-repeat:no-repeat;
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../img/project6.jpg');
+	background-size:cover;
+	background-position: center;
+	border:1px solid black;
+	height:25vh;
+	width:90%;
+	border-radius:2vw;
+	margin:auto;
+	margin-bottom:2vh;
+	text-align:center;
+	font-size:3vh;
+	font-weight:700;
+}
+#img{
+	max-width:100%;
+}
+
+/**************************************************************************************************************/
+
+#note{
+	background-color:#DCDCDC;
+	color:#838383;
+	font-size:1.5vh;
+	width:100%;
+	margin:auto;
+	padding:auto;
+}
+#points{
+	margin-top:2vh;
+	background-color:#DCDCDC;
+}
