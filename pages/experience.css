@@ -348,10 +348,10 @@ body{
   30% { content:"Musicophiles"; }
   40% { content:"doodlers"; }
   50% { content: "swimmers"; }
-  60% { content: "skaters"; }
+  60% { content: "guitarists"; }
   70% { content: "drivers";  }
   80% { content: "coders";  }
-  90%  { content:"artists"; }
+  /* 90%  { content:"artists"; } */
 }
 #activitybody{
 	width:100;
