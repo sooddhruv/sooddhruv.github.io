@@ -173,50 +173,39 @@ body{
 }
 
 .wd{
-  width:85%;
+  width:70%;
   animation: wd 2s;
 }
 
 .python{
-  width: 80%;
+  width: 50%;
   animation: python 2s;
 }
 .c2{
-  width: 45%;
+  width: 80%;
   animation: c2 2s;
 }
 .sql{
-  width: 70%;
+  width: 55%;
   animation: sql 2s;
 }
 .java{
-  width: 80%;
+  width: 60%;
   animation: java 2s;
 }
-.php{
-  width: 65%;
+.machine{
+  width: 80%;
   animation: php 2s;
 }
-.js{
-  width: 50%;
+.pm{
+  width: 80%;
   animation: js 2s;
 }
-.cpt{
-  width: 50%;
-  animation: cpt 2s;
-}
-.fi{
-  width: 75%;
-  animation: fi 2s;
-}
-.pd{
-  width: 70%;
-  animation: pd 2s;
-}
-.auto{
-  width: 65%;
-  animation: auto 2s;
-}
+.flutter{
+	width: 50%;
+	animation: pd 2s;
+  }
+
 
 @keyframes auto {
   0% {
