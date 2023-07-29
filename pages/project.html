@@ -45,9 +45,9 @@
 							<li class="nav-item">
 							  <a class="nav-link" href="skills.html" style="color:white;">Skills</a>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 							  <a class="nav-link" href="hobby.html" style="color:white;">Activities</a>
-							</li>
+							</li> -->
 							<li class="nav-item">
 							  <a class="nav-link" href="here.html" style="color:white;">Only here</a>
 							</li>
@@ -73,31 +73,31 @@
 						<span id="projectheader">Explore the work.</span><hr>
 						<div class="row">
 							<div class="col-md-4" id="projectcontent">
-								<div class="row" id="project1"><center style="margin-top:15%;"><span id="projectbody" >Trunk Routing Protocol<br>
+								<div class="row" id="project1"><center style="margin-top:15%;"><span id="projectbody" >Pro Lens<br>
 									<span class="material-symbols-outlined" style="color:white;" id="rcircle">
 									add_circle
 									</span></span></center>
 								</div>
-								<div class="row" id="project2"><center style="margin-top:15%;"><span id="projectbody" >CryWolf<br>
+								<div class="row" id="project2"><center style="margin-top:15%;"><span id="projectbody" >Live Weapon Detection<br>
 									<span class="material-symbols-outlined" style="color:black;" id="rcircle">
 									add_circle
 									</span></span></center>
 								</div>
 							</div>
 							<div class="col-md-4" id="projectcontent">
-								<div class="row" id="project3"><center style="margin-top:15%;"><span id="projectbody" >System - Network Accessor<br>
+								<div class="row" id="project3"><center style="margin-top:15%;"><span id="projectbody" >Deepfake detection<br>
 									<span class="material-symbols-outlined" style="color:black;" id="rcircle">
 									add_circle
 									</span></span></center>
 								</div> 
-								<div class="row" id="project4"><center style="margin-top:15%;"><span id="projectbody" >HTTPS-I<br>
+								<div class="row" id="project4"><center style="margin-top:15%;"><span id="projectbody" >Real Estate Database Management System<br>
 									<span class="material-symbols-outlined" style="color:black;" id="rcircle">
 									add_circle
 									</span></span></center>
 								</div>
 							</div>
 							<div class="col-md-4" id="projectcontent">
-								<div class="row" id="project5"><center style="margin-top:10.5%;"><span id="projectbody" >Parallel Web Crawler and Vulnerability Assessment<br>
+								<div class="row" id="project5"><center style="margin-top:10.5%;"><span id="projectbody" >Image Steganography<br>
 									<span class="material-symbols-outlined" style="color:black;" id="rcircle">
 									add_circle
 									</span></span></center>
@@ -119,9 +119,9 @@
 		<div id="project1btn" class="modal">
 		  <div class="modal-content">
 			<span class="close1" id="close">&times;</span>
-			<span id="papertitle">Trunk Routing Protocol</span>
-			<span id="paperdetails">[2022]</span>
-			<span id="paperbody">We might use Onion Protocol to hide ourselves among several other nodes but the TOR browser itself is installed on our OS and our OS’ collect data regularly about the user, in order to improve the experience or other reasons, while these programs access the internet directly without using any anonymizing protocol or network. Therefore, when these program leaks information they also leak several other information. While the Onion Protocol works on the basis of each node un-wrapping the data till it reaches the final destination, a port listener on the destination can result into adversary fetching the information.<br><center><img src="../img/onion.jpg" id="img"></center><br>To work around the same, the project works on developing “The Trunk Protocol”, instead of un-wrapping encryption layer on each node it would work to increase the protection by adding another layer using the public key of the receiver, where finally the receiver node decrypts each layer to achieve the requested data without any threats.
+			<span id="papertitle">Pro Lens</span>
+			<span id="paperdetails">[2023]</span>
+			<span id="paperbody">I developed a computer vision application using Flutter and machine learning. The app scans objects through the device's camera, identifies them using YOLOv8, and opens related user manuals. It was a rewarding experience in mobile app development and computer vision.<br><center><img src="../img/Prolens.jpeg" id="img"></center><br>
 			<center><a href="https://github.com/aryanchandrakar/Trunk-Routing-Protocol">Explore further</a></center>
 			</span>
 		  </div>
@@ -129,7 +129,7 @@
 		<div id="project2btn" class="modal">
 		  <div class="modal-content">
 			<span class="close2" id="close">&times;</span>
-			<span id="papertitle">CryWolf</span>
+			<span id="papertitle">Live Weapon Detection</span>
 			<span id="paperdetails">[2022]</span>
 			<span id="paperbody">The structure developed is based on a usual website crawler that in general would just be fetching all the hyperlinks and reference to and from that website, on the top of it, a dynamic accessor has been formed to test these links on separate basis for various possible ways of compromises, which can be further appended based on the needs and wants of the user. And taking the suggestion from the <a href="https://www.usenix.org/legacy/event/sec09/tech/full_papers/sec09_browser.pdf">Cranor’s work</a> the usability ratio of the warning has been tried to improve for better user understanding and keep them away from such malicious weblinks as shown in the figure below.<br><center><img src="../img/crywolf.png" id="img"></center><br>
 			The scanner executes to firstly validate the SSL certificate of these links prior to any further action. Once the SSL certificate is verified the tests are performed on each of the links and forms on the website, and without any further delay in case of a vulnerable area the alert is sent to the user with a virtually developed method of warning the user, on the side of which the code itself works to take the user to safer platform by both closing the current browser, raising a proper alert formed with keeping usability ratio in mind and allowing user to either learn more about the issue or close the same, while on the other hand if no issues are found user are allowed a proper safe surfing.
@@ -139,25 +139,12 @@
 		<div id="project3btn" class="modal">
 		  <div class="modal-content">
 			<span class="close3" id="close">&times;</span>
-			<span id="papertitle">System Accessor</span>
+			<span id="papertitle">Deepfake Detection</span>
 			<span id="paperdetails">[2022]</span>
-			<span id="paperbody">The Accessor is divided into two components each executing different sets of function in order to determine whether the system has been compromised or under one at the moment. Unlike the usual antiviruses offered from several companies checking for flags in the files or running the file for a short period in a sandbox, which can easily be bypassed by using redundant code, hiding the files, making the file polymorphic etc. Thus, to add to the current methods of accessing the system, the structure has been developed in two components namely Network Accessor and Process Monitor which works to check the system’s symptoms in order to provide better results.<br>
-			<center><img src="../img/System_accessor.jpg" id="img"></center><br>
-			<center><img src="../img/System_accessor_2.jpg" id="img"></center><br>
-			A general compromised system symptoms could be any of the following and several other not mentioned here:
-			<ul>
-				<li>Unexpected fast consumption of disk.</li>
-				<li>System running at exceptionally slow speed</li>
-				<li>Unexpected connection by your computer to internet.</li>
-				<li>New unknown files running</li>
-				<li>Unusual traffic in & out of network</li>
-				<li>Suspicious activity in admin or privileged account</li>
-				<li>Dubious network activities indication brute force</li>
-				<li>Spike in file activities</li>
-				<li>Unusual port being accessed by some process</li>
-				<li>Network activity from strange geographical areas</li>
-				<li>System crashing/Interrupts</li>
-				<li>Unusual usage time </li></ul>
+			<span id="paperbody">In my deepfake detection project, I utilized an ensemble technique, combining InceptionV2 and Xception deep learning models. These models were trained on a diverse dataset of deepfake and authentic videos, and their predictions were combined to effectively identify and differentiate deepfake videos with an accuracy of 98%. <br>
+			<center><img src="../img/Deepfake.png" id="img"></center><br>
+			<!-- <center><img src="../img/System_accessor_2.jpg" id="img"></center><br> -->
+			
 			<center><a href="https://github.com/aryanchandrakar/System-Accessor">Explore further</a></center>
 			</span>
 		  </div>
@@ -165,8 +152,8 @@
 		<div id="project4btn" class="modal">
 		  <div class="modal-content">
 			<span class="close4" id="close">&times;</span>
-			<span id="papertitle">HTTPS-I</span>
-			<span id="paperdetails">[2022]</span>
+			<span id="papertitle">Real Estate Database Management System</span>
+			<span id="paperdetails">[2020]</span>
 			<span id="paperbody">The currently used HTTPS communication protocols is called the secure version of HTTP using the SSL certificates, which on itself relies on Diffie-Hellman key exchange, making the bypassing of the same pretty easy as shown in implementation. Few of the top websites having a high request percentage on daily basis have started using HSTS where the website is forced to interact over HTTPS connections helping them from the downgrade attack, still these websites are vulnerable to spoof attack, with adversary personifying themselves as the legitimate website and stealing the sensitive information, the solution to which is discussed in upcoming part. The HTTPS-I protocol works to solve the issue, in addition to not allowing attacks like cookie theft, session hijack and MITM attacks. The structure of the protocol is quite simple yet costing for the sender and receiver on the processing side. It requires a bit more of computation when compared to HTTPS but offers a better front for safety of the user. It does the same by introducing the option of not just encrypting the content like the one being done in HTTPS but also hiding the content from the plain sight, with no proof of data being shared between the users, instead just a few random bytes which even if compromised has no way of telling what the byte represents nor what does the representation contains.<br><center><img src="../img/httpsi.png" id="img"></center><br>
 			To describe the protocol in shorts steps we can conclude as follows-
 			<ol>
@@ -194,8 +181,8 @@
 		<div id="project5btn" class="modal">
 		  <div class="modal-content">
 			<span class="close5" id="close">&times;</span>
-			<span id="papertitle">Parallel Web Crawler and Vulnerability Assessment</span>
-			<span id="paperdetails">[2021]</span>
+			<span id="papertitle">Image Steganography</span>
+			<span id="paperdetails">[2022]</span>
 			<span id="paperbody">Even though all these steps are taken properly there are always some vulnerabilities left behind for which we focus on development of a crawler and vulnerability tester based on fetching all the links and forms available inside a particular URL by capturing all the response and request packets the URL makes and crawling the front end script of the website to fetch all the possible links it either refers or forwards the user too, while testing the same too. Currently the scanner has been developed for crawling through the whole URL and fetching all the links while testing for XSS vulnerable links and forms to which the user provides any PII data.<br><center><img src="../img/pwcva.png" id="img"></center><br>Working As per the definition of a crawler, it functions as to collect all the data in the webpage (URL provided by the user) – all the front end code is taken in account, html, CSS, php pages, the syntax in all is read by the processor searching for reference tags, the hyperlinks, which leads to other pages. In case extracted data is already in our database it’s discarded to avoid replication and content duplicity, if on some cases the hyperlinks refer to each other in a loop structure they need to be discarded to avoid crashes and overloading. While pre-processing out data extracted, look for the incomplete URLs which are either completed later by the webpage or added to current URL to redirect further. All this approach provides a path to robust and efficient web crawler, but the security still in question. All the extracted links are sent to another thread process running parallelly where it’s processed further as- • In case if it contains a login process, try brute force login in so that further extraction can be proceeded, providing a better and in depth approach to problem. • As all the links are getting extracted they are went to another thread for vulnerability check, where the thread main process can be developed to allow the check for any type of vulnerability whether it be XSS vulnerability, SQL-injection vulnerability etc.<br>		
 			<center><a href="https://www.researchgate.net/profile/Aryan-Chandrakar-2/publication/356604165_Parallel_Web_Crawling_for_Faster_Domain_Extraction_Vulnerability_Detection/links/61a4a48aacc0bc46c11fbeae/Parallel-Web-Crawling-for-Faster-Domain-Extraction-Vulnerability-Detection.pdf"><b>Explore further</b></a></center></span>
 		  </div>
@@ -207,18 +194,16 @@
 			<span id="papertitle">Other projects...</span>
 			<span id="paperbody">
 				<ul>
-					<li>Blockchain & Security Analysis in E-Healthcare [2021] </li>
-					<li>A Comprehensive Marketing Plan Development for Better Growth of Company [2021]</li>
-					<li>Secure Portal – Website to protect & anonymize your data and check for phishing sites [2021] </li>
-					<li>Brain Inspired Network Model and Security Assessment [2021] </li>
-					<li>Development Of Visual Idiom to Understand Vulnerabilities In India [2021] </li>
-					<li>Utility Based Rental App Startup Idea [2020]</li>
-					<li>Implementation, analysis, and detection of phishing URLs using neural networks and set models [2019]</li>
-					<li>Data Hiding & Protection using Steganography and Dynamic Masking [2019] </li>
-					<li>E- Healthcare Platform for Counselling and Prescription Management [2019] </li>
-					<li>Data Hiding and Protection using Steganography and Dynamic Masking [2019]</li>
-					<li>Social Platform Development – Chat App [2018]</li>
-					<li>Medic Predictor based on adjustable attributes and needs [2018]</li>
+					<li>Mastering Project Management Of A Product: From Idea to Fulfillment [2022] </li>
+					<li>A Comprehensive Marketing Plan Development for Better Growth of Company [2022]</li>
+					<li>Decentralized Chat Application [2022]</li>
+					<li>Analysis of HR Management Practices in Pre, In, and Post Covid in a Blockchain-based company [2022]</li>
+					<li>Sign Language Recognition Using Machine Learning [2021] </li>
+					<li>A Hands-On Approach to Software Testing: Evaluating a Self-Developed Web Application [2021] </li>
+					<li>Providing Security to Cloud Data using HoneyPot Server [2021] </li>
+					<li>Intrusion Detection System Using Machine Learning Algorithms [2020]</li>
+					<li>A Fully Functioning E-Commerce Website Using PHP For Backend [2020] </li>
+					<li>NGO Platform With Aim To Connect People And Provide Care Through The NGO's Services [2020] </li>
 				</ul>
 			</span>
 		  </div>
