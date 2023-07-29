@@ -531,8 +531,10 @@ body{
 	margin:1vw 0.5vw 0vw 0.5vw;
 	color:white;
 	text-align:center;
+	vertical-align: middle;
 	font-size:4vh;
 	font-weight:700;
+	height: 200px;
 	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	background-repeat:no-repeat;
 	background-image:url('../img/pdf.jpg');
