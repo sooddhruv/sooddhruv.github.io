@@ -254,6 +254,24 @@ body{
   width: 80%;
 }
 
+
+.modal3 {
+	display: none; /* Hidden by default */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+  }
+  
+  .modal-content3 {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+  }
+
+
 #close {
   color: #aaaaaa;
   float: right;
@@ -382,8 +400,12 @@ body{
 	font-weight:700;
 }
 #img{
-	max-width:100%;
+	max-width:70%;
 }
+#img1{
+	max-width:50%;
+}
+
 
 /**************************************************************************************************************/
 

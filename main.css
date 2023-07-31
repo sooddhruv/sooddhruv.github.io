@@ -12,6 +12,12 @@ body{
 	text-align:right;
 	padding-right:2vw;
 }
+#circleoh{
+	font-size:3.2vh;
+	text-align:right;
+	padding-right:2vw;
+	/* padding-top: 12.4vw;  */
+}
 #header{
 	background-color:black;
 }
@@ -169,15 +175,18 @@ body{
 	background: linear-gradient(to right,#FF7000,#FFCD00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-	font-size:16vh;
-	padding:3vw;
+	font-size:12.5vh;
+	/* padding:2.7vw; */
 	font-weight:700;
 	font-family:'Square Peg', cursive;
 }
 
 #different{
 	background-repeat:no-repeat;
-	background-image:url(img/uni.jpeg);
+	background-image:url(img/me2.jpg);
+	/* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+
 	background-size:cover;
 	background-color:black;
 	background-position: center bottom;
@@ -190,7 +199,7 @@ body{
 	color:black;
 	padding-bottom:35%;
 	text-align:center;
-	font-size:5.2vh;
+	font-size:5.0vh;
 	font-weight:750;
 	font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
