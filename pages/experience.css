@@ -178,7 +178,7 @@ body{
 }
 
 .python{
-  width: 50%;
+  width: 85%;
   animation: python 2s;
 }
 .c2{
@@ -186,7 +186,7 @@ body{
   animation: c2 2s;
 }
 .sql{
-  width: 55%;
+  width: 75%;
   animation: sql 2s;
 }
 .java{
@@ -194,15 +194,15 @@ body{
   animation: java 2s;
 }
 .machine{
-  width: 80%;
+  width: 85%;
   animation: php 2s;
 }
 .pm{
   width: 80%;
-  animation: js 2s;
+  animation: pm 2s;
 }
 .flutter{
-	width: 50%;
+	width: 70%;
 	animation: pd 2s;
   }
 
@@ -260,16 +260,24 @@ body{
     width: 0%;
   }
   100%{
-    width: 85%;
+    width: 70%;
   }
 }
+@keyframes pm {
+	0% {
+	  width: 0%;
+	}
+	100%{
+	  width: 80%;
+	}
+  }
 
 @keyframes python{
   0% {
     width: 0%;
   }
   100%{
-    width: 80%;
+    width: 85%;
   }
 }
 
@@ -278,7 +286,7 @@ body{
     width: 0%;
   }
   100%{
-    width: 45%;
+    width: 80%;
   }
 }
 @keyframes sql {
@@ -286,7 +294,7 @@ body{
     width: 0%;
   }
   100%{
-    width: 70%;
+    width: 75%;
   }
 }
 @keyframes java {
@@ -294,7 +302,7 @@ body{
     width: 0%;
   }
   100%{
-    width: 80%;
+    width: 60%;
   }
 }
 /*********************************************************************/
