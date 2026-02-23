@@ -1,8 +1,7 @@
-import { motion } from 'motion/react';
-import { isReducedMotion } from '../lib/motion';
+import { motion, useReducedMotion } from 'motion/react';
 
 export function DataWave() {
-  const reducedMotion = isReducedMotion();
+  const reducedMotion = useReducedMotion();
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 opacity-10 dark:opacity-20">
@@ -23,12 +22,12 @@ export function DataWave() {
             reducedMotion
               ? {}
               : {
-                  d: [
-                    "M0,160 C320,300,420,0,740,160 C1060,320,1120,0,1440,160 L1440,320 L0,320 Z",
-                    "M0,160 C320,0,420,300,740,160 C1060,0,1120,300,1440,160 L1440,320 L0,320 Z",
-                    "M0,160 C320,300,420,0,740,160 C1060,320,1120,0,1440,160 L1440,320 L0,320 Z"
-                  ]
-                }
+                d: [
+                  "M0,160 C320,300,420,0,740,160 C1060,320,1120,0,1440,160 L1440,320 L0,320 Z",
+                  "M0,160 C320,0,420,300,740,160 C1060,0,1120,300,1440,160 L1440,320 L0,320 Z",
+                  "M0,160 C320,300,420,0,740,160 C1060,320,1120,0,1440,160 L1440,320 L0,320 Z"
+                ]
+              }
           }
           transition={{
             duration: 15,
@@ -46,12 +45,12 @@ export function DataWave() {
             reducedMotion
               ? {}
               : {
-                  d: [
-                    "M0,200 C280,300,480,50,740,200 C1000,350,1160,50,1440,200 L1440,320 L0,320 Z",
-                    "M0,200 C280,50,480,300,740,200 C1000,50,1160,300,1440,200 L1440,320 L0,320 Z",
-                    "M0,200 C280,300,480,50,740,200 C1000,350,1160,50,1440,200 L1440,320 L0,320 Z"
-                  ]
-                }
+                d: [
+                  "M0,200 C280,300,480,50,740,200 C1000,350,1160,50,1440,200 L1440,320 L0,320 Z",
+                  "M0,200 C280,50,480,300,740,200 C1000,50,1160,300,1440,200 L1440,320 L0,320 Z",
+                  "M0,200 C280,300,480,50,740,200 C1000,350,1160,50,1440,200 L1440,320 L0,320 Z"
+                ]
+              }
           }
           transition={{
             duration: 20,

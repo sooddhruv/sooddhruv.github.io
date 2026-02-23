@@ -7,6 +7,7 @@ import { Projects } from './components/Projects';
 import { Experience } from './components/Experience';
 import { Skills } from './components/Skills';
 import { Certifications } from './components/Certifications';
+import { Footer } from './components/Footer';
 
 export function Portfolio() {
   return (
@@ -29,6 +30,7 @@ export function Portfolio() {
           <Skills />
           <Certifications />
         </main>
+        <Footer />
       </div>
     </div>
   );
