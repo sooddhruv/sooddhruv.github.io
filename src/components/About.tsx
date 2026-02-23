@@ -24,11 +24,11 @@ export function About() {
 
             {/* Photo on mobile (hidden on desktop) */}
             <div className="lg:hidden mb-8 flex justify-center">
-              <div className="relative w-48 h-48 rounded-2xl overflow-hidden border-2 border-slate-200 dark:border-slate-800 shadow-lg">
+              <div className="relative w-48 h-64 rounded-2xl overflow-hidden border-2 border-slate-200 dark:border-slate-800 shadow-lg">
                 <img
                   src="/images/headshot.png"
                   alt={content.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                   onError={(e) => {
                     (e.target as HTMLImageElement).style.display = 'none';
                     (e.target as HTMLImageElement).nextElementSibling?.classList.remove('hidden');
@@ -54,7 +54,7 @@ export function About() {
               <img
                 src="/images/headshot.png"
                 alt={content.name}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = 'none';
                   (e.target as HTMLImageElement).nextElementSibling?.classList.remove('hidden');
