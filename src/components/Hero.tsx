@@ -108,16 +108,6 @@ export function Hero() {
               <motion.a
                 whileHover={shouldReduceMotion ? {} : { scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 border border-slate-300 dark:border-slate-700 text-base font-medium rounded-xl text-slate-700 dark:text-slate-300 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm hover:bg-slate-50 dark:hover:bg-slate-800 transition-all w-full sm:w-auto shadow-sm hover:shadow-md"
-              >
-                Download Resume
-              </motion.a>
-              <motion.a
-                whileHover={shouldReduceMotion ? {} : { scale: 1.02, y: -2 }}
-                whileTap={{ scale: 0.98 }}
                 href="#projects"
                 className="inline-flex items-center justify-center px-6 py-3 border border-slate-300 dark:border-slate-700 text-base font-medium rounded-xl text-slate-700 dark:text-slate-300 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm hover:bg-slate-50 dark:hover:bg-slate-800 transition-all w-full sm:w-auto shadow-sm hover:shadow-md group"
               >

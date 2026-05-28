@@ -41,14 +41,6 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-accent hover:text-accent-hover transition-colors"
-            >
-              Resume
-            </a>
           </div>
 
           <div className="flex items-center space-x-2 absolute right-0">
@@ -85,15 +77,6 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a
-              href="/resume.pdf"
-              onClick={() => setIsOpen(false)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block px-3 py-2 rounded-md text-base font-medium text-accent hover:bg-slate-50 dark:hover:bg-slate-900"
-            >
-              Resume
-            </a>
           </div>
         </div>
       )}
